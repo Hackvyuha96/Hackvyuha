@@ -1,0 +1,29 @@
+body{
+  height: 100vh;
+  background-color: rgb(226, 241, 206);
+}
+.Links-container{
+  margin: 20px auto;
+  background-color: wheat;
+  height: 40px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 15px;
+}
+.Link{
+  margin: auto 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+    background: brown;
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
